@@ -1,13 +1,30 @@
-# AEF public showcase
+<div align="center">
 
-[Visit the website](https://andrewgoodson.github.io/aef-core-site/).
+<img src="logo.png" width="112" alt="AEF learning loop logo">
 
-Explore explicit agent graphs, durable execution, repository integration and
-evidence-based learning instructions. Includes a local target-repo command
-builder and primary research references with clear implementation boundaries.
+# AEF
 
-This repository contains only public website assets. The AEF runtime source
-is maintained separately and requires repository access. The website does not
-execute agents, submit paths, collect analytics or claim proven learning gains.
+### Your agents. A shared foundation.
 
-GitHub Pages publishes the main branch root. No build step is required.
+Bring memory, control, and a measured learning loop to the agents you already use.
+
+**[Explore AEF ↗](https://andrewgoodson.github.io/aef-core-site/)** · **[Connect your repository](https://andrewgoodson.github.io/aef-core-site/#integrate)**
+
+Claude · Codex · Grok · Cursor · GitHub Copilot
+
+</div>
+
+AEF brings explicit graph workflows, shared state, checkpoint/replay, tool
+permissions and reviewed learning instructions to your agent setup. Start with
+`/target-repo` in a prepared AEF checkout; Codex uses `$target-repo`. The website
+provides the command builder and setup steps.
+
+Developer preview. Target workflows require real service wiring and domain
+tests. Learning gains remain unproven; evolution and automatic merging are
+disabled.
+
+This repository publishes the AEF product website.
+[Runtime source and integration documentation](https://github.com/AndrewGoodson/aef-core)
+are maintained separately and require repository access. GitHub Pages serves
+`main` from the repository root, with no build step. The site does not execute
+agents or submit target paths.
